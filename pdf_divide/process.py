@@ -1,7 +1,6 @@
 from PyPDF2 import PdfFileWriter, PdfFileReader
 import glob
 import os
-import datetime
 
 for file_name in glob.glob('divide/*.pdf'):
     (name, extention) = os.path.splitext(file_name)
